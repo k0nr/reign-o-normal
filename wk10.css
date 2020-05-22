@@ -55,7 +55,7 @@ font-size:30px;
     left: 0px;
     bottom: 0px;
     height: 80%;
-    width: 30%;
+    width: 22%;
     overflow-y: scroll;
 }
 
@@ -69,12 +69,19 @@ font-size:30px;
         
 .bod {
     position: absolute;;
-    width: 70%;
+    width: 75%;
     height: 80%;
-    left: 30%;
-    top: 0px;
+    left: 25%;
+    bottom: 0px;
     overflow: hidden;
 }
+
+
+        .intro {
+            position: relative;
+            height: 200vh;
+            width: 100%;
+        }
 
         .playpage {
             position: relative;
@@ -82,21 +89,33 @@ font-size:30px;
             width: 100%;
         }
         
-        h2:before {
+ /*       h2:before {
             display: block;
             content: " ";
             margin-top: -25vh;
             height: 25vh;
             visibility: hidden;
             pointer-events: none;
-        }
+        }*/
       
+ 
+.baby {
+    position: fixed;
+    width: 10%;
+    bottom: 0px;
+    right: 0px;
+}
+
+.baby img {
+    height: auto;
+    width: 100%;
+}
 
 /* youtube */
 
 .play {
     position: relative;
-    width: 50%;
+    width: 65%;
     top: 0px;
     
 }
