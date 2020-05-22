@@ -58,7 +58,8 @@ font-size:30px;
         }
 
         .title {
-            position: relative;
+            position: absolute;
+            right: 0px;
             font-size: 10vh;
             text-align: center;
             color: white;
@@ -79,9 +80,11 @@ font-size:30px;
             }
         
         .date {
-            position: relative;
+            position: absolute;
             font-size: 4.5vh;
             text-align: center;
+            bottom: 0px;
+            right: 0px;
             color: white;
             
         }
