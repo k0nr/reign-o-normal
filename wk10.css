@@ -14,7 +14,7 @@ font-size:30px;
 }
 
 @media only screen and (orientation:portrait){
-#wrapper { display:none; }
+#outer { display:none; }
 #warning-message { display:block; }
 
  }
@@ -25,7 +25,7 @@ font-size:30px;
     }
     
     
-.outer {
+#outer {
     font-family: 'Frank Ruhl Libre', serif;
             border-style: outset;
 
@@ -161,6 +161,31 @@ font-size:30px;
     width: 100%;
 }
 
+.contacts {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    width: 100%;
+    text-align: right;
+}
+
+    .contacts a:link {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .contacts a:hover {
+        color: white;
+        text-decoration: underline;
+        background-color: blue;
+        
+    }
+    
+    .contacts a:visited {
+        color: white;
+        text-decoration: none;
+        
+    }
 /* youtube */
 
 .play {
