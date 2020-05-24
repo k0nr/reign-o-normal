@@ -117,7 +117,6 @@ font-size:30px;
     left: 20%;
     bottom: 0px;
     overflow: auto;
-    scroll-snap-type: y mandatory;
         background-color: #94befc;
 
 }
@@ -130,7 +129,6 @@ font-size:30px;
         }
 
         .playpage {
-            scroll-snap-align: start;
             position: relative;
             height: 100vh;     
             width: 90%;
